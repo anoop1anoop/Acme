@@ -102,7 +102,7 @@ async function seedRevenue() {
 }
 
 export async function GET() {
-/*
+  return Response.json({ message: 'Database already created' });
   try {
     await client.sql`BEGIN`;
     await seedUsers();
@@ -116,5 +116,5 @@ export async function GET() {
     await client.sql`ROLLBACK`;
     return Response.json({ error }, { status: 500 });
   }
-  */
+  
 }
