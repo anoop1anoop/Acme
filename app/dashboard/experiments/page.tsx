@@ -17,7 +17,7 @@ export default function Page() {
     return (
         <main >
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
-                Tailwind Experiments
+                Tailwind Experimentation
             </h1>
             <div>
                 <div className='flex grow flex-col md:flex-row md:space-x-2 md:space-y-2'>
