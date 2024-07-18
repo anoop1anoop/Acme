@@ -1,6 +1,6 @@
 import React from "react";
 
-// @material-tailwind/react
+
 import {
   Button,
   Typography,
