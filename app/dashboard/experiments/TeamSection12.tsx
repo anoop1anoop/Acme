@@ -4,7 +4,7 @@ import {
     Avatar,
     IconButton,
     Typography,
-  } from "@material-tailwind/react";
+  } from "@material-tailwind/react"
 
   
   interface TeamCardPropsType {
