@@ -71,7 +71,7 @@ export default function TabsLgPillLeadingIcon() {
               role="tab"
               aria-setsize="3"
               aria-posinset="1"
-              tabindex={`${tabSelected.currentTab === 1 ? "0" : "-1"}`}
+              tabIndex={`${tabSelected.currentTab === 1 ? "0" : "-1"}`}
               aria-controls="tab-panel-1di"
               aria-selected={`${
                 tabSelected.currentTab === 1 ? "true" : "false"
@@ -155,7 +155,7 @@ export default function TabsLgPillLeadingIcon() {
               role="tab"
               aria-setsize="3"
               aria-posinset="3"
-              tabindex={`${tabSelected.currentTab === 3 ? "0" : "-1"}`}
+              tabIndex={`${tabSelected.currentTab === 3 ? "0" : "-1"}`}
               aria-controls="tab-panel-3di"
               aria-selected={`${
                 tabSelected.currentTab === 3 ? "true" : "false"
@@ -201,7 +201,7 @@ export default function TabsLgPillLeadingIcon() {
             aria-hidden={`${tabSelected.currentTab === 1 ? "true" : "false"}`}
             role="tabpanel"
             aria-labelledby="tab-label-1di"
-            tabindex="-1"
+            tabIndex="-1"
           >
             <p>
               What is the recipe for successful achievement? To my mind there
@@ -218,7 +218,7 @@ export default function TabsLgPillLeadingIcon() {
             aria-hidden={`${tabSelected.currentTab === 2 ? "true" : "false"}`}
             role="tabpanel"
             aria-labelledby="tab-label-2di"
-            tabindex="-1"
+            tabIndex="-1"
           >
             <p>
               One must be entirely sensitive to the structure of the material
@@ -235,7 +235,7 @@ export default function TabsLgPillLeadingIcon() {
             aria-hidden={`${tabSelected.currentTab === 3 ? "true" : "false"}`}
             role="tabpanel"
             aria-labelledby="tab-label-3di"
-            tabindex="-1"
+            tabIndex="-1"
           >
             <p>
               Even though there is no certainty that the expected results of our
