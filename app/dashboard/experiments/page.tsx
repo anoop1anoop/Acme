@@ -2,10 +2,7 @@
 
 import { lusitana } from '@/app/ui/fonts';
 import Widget from '@/app/dashboard/experiments/widget';
-import TeamSection12 from './TeamSection12';
-import KpiCard1 from './KpiCard1';
 import AccordionIcon from './AccordionIcon';
-import TabsLgPillLeadingIcon from './TabsLgPillLeadingIcon';
 
 import {
     UserGroupIcon,
@@ -29,12 +26,6 @@ export default function Page() {
                     <Widget titleText='Widget 3' contentTitle='Yadi Yada' icon={BuildingLibraryIcon} />
                 </div>
             </div>
-            <section className='border-solid border-2 rounded-lg mt-6'>
-                <TeamSection12 />
-            </section>
-            <section className='border-solid border-2 rounded-lg mt-6'>
-                <KpiCard1 />
-            </section>
             <section className='border-solid border-2 rounded-lg mt-6'>
                 <div className="bg-white py-24 sm:py-32">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -122,9 +113,6 @@ export default function Page() {
             </section>
             <section className='border-solid border-2 rounded-lg mt-6'>
                 <AccordionIcon />
-            </section>
-            <section className='border-solid border-2 rounded-lg mt-6'>
-                <TabsLgPillLeadingIcon/>
             </section>
 
         </main>
