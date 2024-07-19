@@ -6,10 +6,10 @@ export default function AccordionIcon() {
       {/*<!-- Component: Icon accordion --> */}
       <section className="w-full divide-y divide-slate-200 rounded">
         <details className="group p-4" open>
-          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
+          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 dark:text-orange-200 dark:group-hover:text-orange-400 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6  shrink-0  stroke-emerald-500  "
+              className="h-6 w-6  shrink-0  stroke-emerald-500  dark:stroke-emerald-100"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -27,7 +27,7 @@ export default function AccordionIcon() {
             What browsers are supported?
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
+              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 dark:stroke-slate-100 transition duration-300 group-open:rotate-45"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -45,17 +45,17 @@ export default function AccordionIcon() {
               />
             </svg>
           </summary>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-500 dark:text-orange-200 dark:group-hover:text-orange-400">
             The components in Wind UI are designed to work in the latest, stable
             releases of all major browsers, including Chrome, Firefox, Safari,
             and Edge.
           </p>
         </details>
         <details className="group p-4">
-          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
+          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 dark:text-orange-200 dark:group-hover:text-orange-400 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6  shrink-0  stroke-emerald-500  "
+              className="h-6 w-6  shrink-0  stroke-emerald-500  dark:stroke-emerald-100"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -73,7 +73,7 @@ export default function AccordionIcon() {
             Are the components only available in green?
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
+              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 dark:stroke-slate-100 transition duration-300 group-open:rotate-45"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -91,15 +91,15 @@ export default function AccordionIcon() {
               />
             </svg>
           </summary>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-500 dark:text-orange-200 dark:group-hover:text-orange-400">
             All components are easily customizable to match your own project.
           </p>
         </details>
         <details className="group p-4">
-          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
+          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 dark:text-orange-200 dark:group-hover:text-orange-400 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6  shrink-0  stroke-emerald-500  "
+              className="h-6 w-6  shrink-0  stroke-emerald-500 dark:stroke-emerald-100 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -117,7 +117,7 @@ export default function AccordionIcon() {
             Is WindUi open source?
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
+              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 dark:stroke-slate-100 transition duration-300 group-open:rotate-45"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -135,16 +135,16 @@ export default function AccordionIcon() {
               />
             </svg>
           </summary>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-500 dark:text-orange-200 dark:group-hover:text-orange-400">
             WindUI is not an open source project yet, but we don't guarantee
             that it won't become in the future.
           </p>
         </details>
         <details className="group p-4">
-          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
+          <summary className="relative flex cursor-pointer list-none gap-4 pr-8 font-medium text-slate-700 dark:text-orange-200 dark:group-hover:text-orange-400 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6  shrink-0  stroke-emerald-500  "
+              className="h-6 w-6  shrink-0  stroke-emerald-500 dark:stroke-emerald-100 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -162,7 +162,7 @@ export default function AccordionIcon() {
             How can I help improve WindUI?
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
+              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 dark:stroke-slate-100  transition duration-300 group-open:rotate-45"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -180,7 +180,7 @@ export default function AccordionIcon() {
               />
             </svg>
           </summary>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-500 dark:text-orange-200 dark:group-hover:text-orange-400">
             You can help our team improve WindUI by giving us feedback on our
             discord channel.
           </p>
