@@ -27,7 +27,7 @@ const ThemeSwitcher = () => {
 	} else {
 		return (
 			<div className="bg-background text-primary-green">
-				<button className = "mt-2  mr-4" onClick={() => setTheme('dark')}><MoonIcon className ="w-6"/></button>
+				<button className = "mt-2  mr-4" onClick={() => setTheme('dark')}><MoonIcon className ="w-6" color='#FFFFFF'/></button>
 			</div>
 		);
 	}
