@@ -3,6 +3,11 @@
 import { lusitana } from '@/app/ui/fonts';
 import Widget from '@/app/dashboard/experiments/widget';
 import AccordionIcon from './AccordionIcon';
+import Example from './Example';
+import Example1 from './Example1';
+import Example2 from './Example2';
+import Example4 from './Example4';
+
 
 import {
     UserGroupIcon,
@@ -12,18 +17,17 @@ import {
 } from '@heroicons/react/24/outline';
 
 
-
 export default function Page() {
     return (
-        <main >
+        <main className="dark">
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
-                Tailwind 101
+                Tailwind 101               
             </h1>
             <div>
                 <div className='flex grow flex-col md:flex-row md:space-x-2 md:space-y-2'>
-                    <Widget titleText='Widget 1' contentTitle='Lazy Bone' icon={BugAntIcon} />
-                    <Widget titleText='Widget 2' contentTitle='Yadi Yada' icon={DocumentDuplicateIcon} />
-                    <Widget titleText='Widget 3' contentTitle='Yadi Yada' icon={BuildingLibraryIcon} />
+                    <Widget titleText='Widget 0' contentTitle='Lazy Bone' icon={BugAntIcon} />
+                    <Widget titleText='Widget 1' contentTitle='Yadi Yada' icon={DocumentDuplicateIcon} />
+                    <Widget titleText='Widget 2' contentTitle='Yadi Yada' icon={BuildingLibraryIcon} />
                 </div>
             </div>
             <section className='border-solid border-2 rounded-lg mt-6'>
@@ -114,7 +118,18 @@ export default function Page() {
             <section className='border-solid border-2 rounded-lg mt-6'>
                 <AccordionIcon />
             </section>
-
+            <section className='border-solid border-2 rounded-lg mt-6'>
+                <Example />
+            </section>
+            <section className='border-solid border-2 rounded-lg mt-6'>
+                <Example1 />
+            </section>
+            <section className='border-solid border-2 rounded-lg mt-6'>
+                <Example2 />
+            </section>
+            <section className='border-dashed border-2 text-center rounded-lg mt-6 space-x-4'>
+                <Example4 />
+            </section>
         </main>
     );
 }
