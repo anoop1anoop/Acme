@@ -1,7 +1,6 @@
-
-
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Providers } from './providers';
 
 
 
@@ -18,8 +17,9 @@ export default function RootLayout({
 }) {
 
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} antialiased bg-lightbg text-black dark:bg-darkbg dark:text-white`}>
+      <Providers>{children}</Providers>
       </body>
     </html>
   );
