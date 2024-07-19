@@ -88,9 +88,9 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <section className=' flex space-x-4 border-solid border-2 rounded-lg mt-6'>
+            <section className=' flex flex-col md:flex-row justify-items-end border-solid border-2 rounded-lg mt-6'>
                 <div>
-                    <div className=" object-left block p-4 bg-white rounded-lg shadow w-72 h-full">
+                    <div className=" object-left block mt-4 p-4 bg-white rounded-lg shadow w-72 h-full">
                         <div className=" w-full h-4 bg-gray-400 rounded-full mt-3">
                             <div className="w-1/2 h-full text-center text-xs text-white bg-green-500 rounded-full">
                                 50%
@@ -98,12 +98,12 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="block p-4  bg-white rounded-lg shadow w-72">
+                <div className='justify-items-end'>
+                    <div className="p-4 mt-4 bg-white rounded-lg shadow w-72">
                         <div>
-                            <span className="text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-sky-500">
+                            <div className="text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-sky-500">
                                 Task in progress
-                            </span>
+                            </div>
                         </div>
                         <div className="w-full h-4 bg-gray-400 rounded-full mt-3">
                             <div className="w-3/4 h-full text-center text-xs text-white bg-sky-500 rounded-full">
