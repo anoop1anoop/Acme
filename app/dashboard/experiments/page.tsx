@@ -7,8 +7,6 @@ import Example from './Example';
 import Example1 from './Example1';
 import Example2 from './Example2';
 import Example4 from './Example4';
-import ThemeSwitcher from './themeSwitcher';
-
 
 import {
     UserGroupIcon,
@@ -24,7 +22,6 @@ export default function Page() {
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
                 Tailwind 101               
             </h1>
-            <ThemeSwitcher/>
             <div>
                 <div className='flex grow flex-col md:flex-row md:space-x-2 md:space-y-2'>
                     <Widget titleText='Widget 0' contentTitle='Lazy Bone' icon={BugAntIcon} />
