@@ -21,11 +21,11 @@ export default async function InvoicesTable({
             {invoices?.map((invoice) => (
               <div
                 key={invoice.id}
-                className="mb-2 w-full rounded-md bg-white p-4"
+                className="mb-2 w-full rounded-md bg-white p-4 dark:bg-sky-800"
               >
-                <div className="flex items-center justify-between border-b pb-4">
+                <div className="flex items-center justify-between border-b pb-4 dark:bg-sky-800">
                   <div>
-                    <div className="mb-2 flex items-center">
+                    <div className="mb-2 flex items-center dark:text-gray-100">
                       <Image
                         src={invoice.image_url}
                         className="mr-2 rounded-full"
@@ -35,13 +35,13 @@ export default async function InvoicesTable({
                       />
                       <p>{invoice.name}</p>
                     </div>
-                    <p className="text-sm text-gray-500">{invoice.email}</p>
+                    <p className="text-sm text-gray-500 dark:text-orange-200">{invoice.email}</p>
                   </div>
                   <InvoiceStatus status={invoice.status} />
                 </div>
                 <div className="flex w-full items-center justify-between pt-4">
                   <div>
-                    <p className="text-xl font-medium">
+                    <p className="text-xl font-medium dark:text-red-200">
                       {formatCurrency(invoice.amount)}
                     </p>
                     <p>{formatDateToLocal(invoice.date)}</p>
