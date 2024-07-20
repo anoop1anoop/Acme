@@ -1,13 +1,18 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 import { Providers } from './providers';
+import { Metadata } from 'next';
 
 
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme Dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'The official Next.js Learn Dashboard built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
 
-export const metadata = {
-  title: 'Welcome to Acme',
-  description: 'From Vercel@Labs',
-}
 
 
 export default function RootLayout({
