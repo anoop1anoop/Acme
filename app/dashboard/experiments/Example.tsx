@@ -2,7 +2,7 @@
 
 export default function Example() {
   return (
-    <div className="bg-white dark:bg-sky-950 py-4 sm:py-4">
+    <div className="bg-white dark:bg-sky-950 py-4 sm:py-4 rounded-lg">
       <div className="px-6 ">
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 dark:text-yellow-200">
           Trusted by the world’s most innovative teams

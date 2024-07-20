@@ -30,7 +30,7 @@ export default function Page() {
                 </div>
             </div>
             <section className='border-solid border-2 rounded-lg mt-6 '>
-                <div className="bg-white py-24 sm:py-32 dark:bg-sky-950 ">
+                <div className="bg-white py-24 sm:py-32 dark:bg-sky-950 rounded-lg">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
                             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -50,7 +50,7 @@ export default function Page() {
                 </div>
             </section>
             <section className='border-solid border-2 rounded-lg mt-6'>
-                <div className="bg-white py-24 sm:py-32 dark:bg-sky-950 ">
+                <div className="bg-white py-24 sm:py-32 dark:bg-sky-950 rounded-lg">
                     <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
                         <div className="max-w-2xl">
                             <h2 className="text-3xl font-bold tracking-tight dark:text-yellow-500 text-gray-900 sm:text-4xl">Meet our leadership</h2>
