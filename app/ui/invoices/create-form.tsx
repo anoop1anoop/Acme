@@ -45,7 +45,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
           <label htmlFor="amount" className="mb-2 block text-sm font-medium">
             Choose an amount
           </label>
-          <div className="relative mt-2 rounded-md">
+          <div className="relative mt-2 rounded-md dark:text-gray-500">
             <div className="relative">
               <input
                 id="amount"
