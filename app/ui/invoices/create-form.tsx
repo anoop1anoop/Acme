@@ -3,8 +3,6 @@
 import { CustomerField } from '@/app/lib/definitions';
 import { createInvoice, State } from '@/app/lib/actions';
 import { useActionState } from 'react';
-
-
 import Link from 'next/link';
 import {
   CheckIcon,
